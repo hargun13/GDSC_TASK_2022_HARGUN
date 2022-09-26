@@ -1,0 +1,62 @@
+
+.choice-box{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 0.1rem solid #87A2FB;
+    background-color: #CDF0EA;
+    
+}
+
+.choice-box:hover{
+    transition: 0.4s;
+    cursor:pointer;
+    transform: translatey(-0.2rem);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 255, 255);
+
+}
+
+.choice{
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(141, 152, 245);
+    color:white;
+    border-radius: 100%;
+}
+
+.choice-answer{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: #06FF00;
+}
+
+.incorrect{
+    background-color: #FF0000;
+}
+
+/*Headsup Display*/
+
+#hud{
+    display:flex;
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: space-around;
+}
+
+
+.hud-prefix{
+    text-align:center;
+    font-size:2rem;
+    
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+
